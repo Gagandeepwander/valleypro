@@ -6,7 +6,10 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
-{% include base.html %}
+<!-- _includes/base.html -->
+
+
+
   <!-- Favicons -->
   <link href="img/favicon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -49,7 +52,7 @@
       </div>-->
 	  
 	  <div id="logo" class="pull-left">
-        <h1><a href="{{base}}" class="scrollto"><img src="img/logo.jpg"></a></h1>
+        <h1><a href="" class="scrollto"><img src="img/logo.jpg"></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
 		<h5><img src="img/tag-stick.png"></h5>
@@ -80,7 +83,7 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="{{base}}">Home</a></li>
+          <li class="menu-active"><a href="">Home</a></li>
 		 <li class="menu-has-children"><a href="#about">Services</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -100,7 +103,34 @@
 
   <main id="main">
 
-   {{content}}
+   <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Welcome to Jekyll!</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2018-04-14T17:46:35+05:30" itemprop="datePublished">Apr 14, 2018
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>To add new posts, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+
+
+  </div><a class="u-url" href="/valleypro/jekyll/update/2018/04/14/welcome-to-jekyll.html" hidden></a>
+</article>
+
    
     <!--==========================
       Footer Top Section
@@ -114,7 +144,7 @@
 		    <h1>Navigation</h1>
 			<h2></h2>
 			<ul>
-			 <li><a href="{{base}}">Home</a></li>
+			 <li><a href="">Home</a></li>
 			 <li><a href="#about">Services</a></li>
 			 <li><a href="contact">Contact Us</a></li>
 			</ul>

@@ -6,7 +6,10 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
-{% include base.html %}
+<!-- _includes/base.html -->
+
+
+
   <!-- Favicons -->
   <link href="img/favicon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -49,7 +52,7 @@
       </div>-->
 	  
 	  <div id="logo" class="pull-left">
-        <h1><a href="{{base}}" class="scrollto"><img src="img/logo.jpg"></a></h1>
+        <h1><a href="." class="scrollto"><img src="img/logo.jpg"></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
 		<h5><img src="img/tag-stick.png"></h5>
@@ -80,7 +83,7 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="{{base}}">Home</a></li>
+          <li class="menu-active"><a href=".">Home</a></li>
 		 <li class="menu-has-children"><a href="#about">Services</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -100,7 +103,27 @@
 
   <main id="main">
 
-   {{content}}
+   <style type="text/css" media="screen">
+  .container {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+</style>
+
+<div class="container">
+  <h1>404</h1>
+
+  <p><strong>Page not found :(</strong></p>
+  <p>The requested page could not be found.</p>
+</div>
+
    
     <!--==========================
       Footer Top Section
@@ -114,7 +137,7 @@
 		    <h1>Navigation</h1>
 			<h2></h2>
 			<ul>
-			 <li><a href="{{base}}">Home</a></li>
+			 <li><a href=".">Home</a></li>
 			 <li><a href="#about">Services</a></li>
 			 <li><a href="contact">Contact Us</a></li>
 			</ul>
